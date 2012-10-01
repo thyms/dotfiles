@@ -52,8 +52,9 @@ set nowb
 " Only works all the time.
 
 silent !mkdir ~/.vim/backups > /dev/null 2>&1
-set undodir=~/.vim/backups
-set undofile
+" TODO[DK:2012.10.01]: Find out why this options are not working
+" set undodir=~/.vim/backups
+" set undofile
 
 " ================ Indentation ======================
 
